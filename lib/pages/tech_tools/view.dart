@@ -5,8 +5,8 @@ import '../../cores/view.dart';
 
 List <ToolTechItem> list = [
   ToolTechItem(title: "Flutter", subTitle: "Cross-platform framework", secondaryTitle: "Build beautiful native apps in record time",imageURL:"assets/images/flutter-logo.png" ,),
-  ToolTechItem(title: "Dart", subTitle: "Programming Language", secondaryTitle: "Optimized for UI, Developed By Google",imageURL: "assets/images/dart_logo.png",),
-  ToolTechItem(title: "Firebase", subTitle: "Backend as a Service", secondaryTitle: "RealTime Database, auth, and More",imageURL: "assets/images/firbase_logo.webp",),
+  ToolTechItem(title: "Dart", subTitle: "Programming Language", secondaryTitle: "Optimized for UI, Developed By Google",imageURL: "assets/images/dart_logog.png",),
+  ToolTechItem(title: "Firebase", subTitle: "Backend as a Service", secondaryTitle: "RealTime Database, auth, and More",imageURL: "assets/images/firbase_logog.png",),
   ToolTechItem(title: "GitHub", subTitle: "Code Hosting", secondaryTitle: "Host and Review Code, Mange Projects",imageURL: "assets/images/github_logo.jpg",),
   ToolTechItem(title: "VS Code", subTitle: "Code Editor", secondaryTitle: "Free, Open Source Code Editor by Microsoft",imageURL: "assets/images/vs_code logo.jpg",),
   ToolTechItem(title: "Android", subTitle: "Mobile OS", secondaryTitle: "Most Popular Mobile Operating System",imageURL: "assets/images/android_logo.png",),
@@ -35,7 +35,7 @@ Widget card (String title, String subTitle, String secondaryTitle, String imageU
       color: Colors.white,
       child: ListTile(
         iconColor: Color(0xff8e6cca),
-        contentPadding: EdgeInsetsGeometry.directional(start: 9,bottom: 15,top: 15,end: 18),
+        contentPadding: EdgeInsetsGeometry.directional(start: 9,bottom: 9,top: 10,end: 18),
         leading: CircleAvatar(radius: 28,backgroundColor: Colors.white,backgroundImage: AssetImage(imageURL),),
         title: Text(title,style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold,color: Colors.black87),),
         subtitle: Column(
